@@ -4,8 +4,7 @@
   "description": "A simple restaurant landing page, created with Javascript using webpack's modularized code management.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
