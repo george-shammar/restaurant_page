@@ -23,10 +23,6 @@ function pageLayout() {
     const paragraphText = document.createTextNode('We tantalize your taste bud...');
     paragraph.appendChild(paragraphText);
     container.appendChild(paragraph);
-    
-
-
-
 }
 
 export default pageLayout
