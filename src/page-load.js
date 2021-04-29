@@ -10,6 +10,8 @@ function pageLoad() {
     container.setAttribute('class', 'container');
     banner.appendChild(container);
 
+    const header = document.createElement('h1');
+    header.setAttribute('class', 'text');
     
 
 
