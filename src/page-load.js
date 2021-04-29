@@ -33,3 +33,4 @@ function menu() {
 }
 
 export default pageLayout
+export default menu
