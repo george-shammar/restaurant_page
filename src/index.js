@@ -1,4 +1,4 @@
 // import pageLoad function from page-load
-import pageLoad from "./page-load";
+import pageLayout from "./page-load";
 
-pageLoad();
+pageLayout();

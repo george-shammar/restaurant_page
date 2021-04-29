@@ -1,4 +1,4 @@
-function pageLoad() {
+function pageLayout() {
     // create banner div and append to content.
     const banner = document.createElement('div');
     banner.setAttribute('class', 'banner');
@@ -10,11 +10,14 @@ function pageLoad() {
     container.setAttribute('class', 'container');
     banner.appendChild(container);
 
+    // Create header with text
     const header = document.createElement('h1');
     header.setAttribute('class', 'text');
-    
+    const headerText =  document.createTextNode('Bon Goût');
+    header.appendChild(headerText);
+
 
 
 }
 
-export default pageLoad
+export default pageLayout
