@@ -27,4 +27,9 @@ function pageLayout() {
     container.appendChild(paragraph);
 }
 
+
+function menu() {
+
+}
+
 export default pageLayout
