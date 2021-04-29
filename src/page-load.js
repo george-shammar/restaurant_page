@@ -1,3 +1,5 @@
+import './style.css';
+
 function pageLayout() {
     // create banner div and append to content.
     const banner = document.createElement('div');
