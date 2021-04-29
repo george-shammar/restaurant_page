@@ -15,6 +15,10 @@ function pageLayout() {
     header.setAttribute('class', 'text');
     const headerText =  document.createTextNode('Bon Goût');
     header.appendChild(headerText);
+    container.appendChild(header);
+
+    // Create header paragrapgh
+    
 
 
 
