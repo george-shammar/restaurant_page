@@ -34,7 +34,7 @@ function menu() {
     nav.setAttribute('class', 'menu');
     content.appendChild(nav);
 
-    // create menu tabs
+    // create home tab
     const home = document.createElement('div');
     home.setAttribute('class', 'primary-button me-5');
     const link = document.createElement('a');
@@ -44,6 +44,17 @@ function menu() {
     link.appendChild(homeText);
     home.appendChild(link);
     nav.appendChild(home);
+
+    // Create menu tab
+    const homeMenu = document.createElement('div');
+    homeMenu.setAttribute('class', 'primary-button me-5');
+    const linkMenu = document.createElement('a');
+    linkMenu.setAttribute('href', "menu.html");
+    const homeMenuText = document.createTextNode('Menus');
+
+    linkMenu.appendChild(homeMenuText);
+    homeMenu.appendChild(linkMenu);
+    nav.appendChild(homeMenu);
 }
 
 export {pageLayout}
