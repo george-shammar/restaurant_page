@@ -1,1 +1,1 @@
-(()=>{"use strict";document.createElement("div")})();
+(()=>{"use strict";document.createElement("div").setAttribute("class","banner")})();
