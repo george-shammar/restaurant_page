@@ -13,3 +13,23 @@
     font-style: italic;
     font-weight: bolder;
 }
+
+.primary-button a {
+	display: inline-block;
+	background-color: #f2745f;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 12px 20px;
+	border-radius: 3px;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}

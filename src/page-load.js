@@ -28,11 +28,12 @@ function pageLayout() {
     container.appendChild(paragraph);
 }
 
-
+// create menu function
 function menu() {
     const nav = document.createElement('nav');
     nav.setAttribute('class', 'menu');
-
+    content.appendChild(nav);
+    
 }
 
 export default pageLayout
