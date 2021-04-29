@@ -18,6 +18,11 @@ function pageLayout() {
     container.appendChild(header);
 
     // Create header paragrapgh
+    const paragraph = document.createElement('p');
+    paragraph.setAttribute('class', 'text');
+    const paragraphText = document.createTextNode('We tantalize your taste bud...');
+    paragraph.appendChild(paragraphText);
+    container.appendChild(paragraph);
     
 
 
