@@ -35,10 +35,14 @@ function menu() {
     content.appendChild(nav);
 
     // create menu tabs
-    const home = document.createElement('dvi');
+    const home = document.createElement('div');
     home.setAttribute('class', 'primary-button me-5');
+    const link = document.createElement('a');
+    link.setAttribute('href', "index.html");
     const homeText = document.createTextNode('Home');
-    home.appendChild(homeText);
+
+    link.appendChild(homeText);
+    home.appendChild(link);
     nav.appendChild(home);
 }
 
