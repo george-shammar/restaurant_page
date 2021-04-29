@@ -1,0 +1,15 @@
+
+.banner {
+	padding: 200px 0px;
+	background-image: url(./restaurant.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+}
+
+.text {
+    color: #eb2603;
+    font-style: italic;
+    font-weight: bolder;
+}
