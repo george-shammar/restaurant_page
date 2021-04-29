@@ -33,8 +33,14 @@ function menu() {
     const nav = document.createElement('nav');
     nav.setAttribute('class', 'menu');
     content.appendChild(nav);
-    
+
+    // create menu tabs
+    const home = document.createElement('dvi');
+    home.setAttribute('class', 'primary-button me-5');
+    const homeText = document.createTextNode('Home');
+    home.appendChild(homeText);
+    nav.appendChild(home);
 }
 
-export default pageLayout
-export default menu
+export {pageLayout}
+export {menu}
