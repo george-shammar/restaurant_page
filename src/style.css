@@ -1,7 +1,7 @@
 
 .banner {
 	padding: 200px 0px;
-	/* background-image: url(./restaurant.jpg); */
+	background-image: url(./restaurant.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
