@@ -1,6 +1,5 @@
 import './style.css';
 
-
 const menu = document.getElementById('menu');
 
 function menuPage() {
@@ -22,14 +21,13 @@ function menuPage() {
      containerMenu.appendChild(headerMenu);
 
     // Create header paragrapgh
-    const paragraphContact = document.createElement('p');
-    paragraphContact.setAttribute('class', 'text');
-    const paragraphContactText = document.createTextNode(' East Legon; P.O. Box KD213 Kanda,. Accra, GHANA Tel: 233');
-    paragraphContact.appendChild(paragraphContactText);
-    containerContact.appendChild(paragraphContact);
+    const paragraphMenu = document.createElement('p');
+    paragraphMenu.setAttribute('class', 'text');
+    const paragraphMenuText = document.createTextNode('Breakfast......Brunch......Lunch......Dinner');
+    paragraphMenu.appendChild(paragraphMenuText);
+    containerMenu.appendChild(paragraphMenu);
 
 }
 
-contactPage();
-
-export {contactPage}
+menuPage();
+export {menuPage}
