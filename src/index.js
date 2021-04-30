@@ -5,4 +5,4 @@ import {contactPage} from './contact';
 
 pageLayout();
 menu();
-contactPage();
+// contactPage();
