@@ -20,6 +20,13 @@ function contactPage() {
      headerContact.appendChild(headerContactText);
      containerContact.appendChild(headerContact);
 
+    // Create header paragrapgh
+    const paragraphContact = document.createElement('p');
+    paragraphContact.setAttribute('class', 'text');
+    const paragraphContactText = document.createTextNode(' East Legon; P.O. Box KD213 Kanda,. Accra, GHANA Tel: 233');
+    paragraphContact.appendChild(paragraphContactText);
+    containerContact.appendChild(paragraphContact);
+
 }
 
 contactPage();
