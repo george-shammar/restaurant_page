@@ -3,16 +3,16 @@ import './style.css';
 
 const menu = document.getElementById('menu');
 
-function contactPage() {
+function menuPage() {
     // create heading
-    const heading = document.createElement('div');
-    heading.setAttribute('class', 'page-heading');
-    contact.appendChild(heading);
+    const headingMenu = document.createElement('div');
+    headingMenu.setAttribute('class', 'page-heading');
+    menu.appendChild(headingMenu);
 
     // Create container
-    const containerContact = document.createElement('div');
-    containerContact.setAttribute('class', 'container');
-    heading.appendChild(containerContact);
+    const containerMenu = document.createElement('div');
+    containerMenu.setAttribute('class', 'container');
+    headingMenu.appendChild(containerMenu);
 
      // Create header with text
      const headerContact = document.createElement('h1');
