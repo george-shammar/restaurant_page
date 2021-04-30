@@ -39,6 +39,7 @@ function menu() {
     home.setAttribute('class', 'primary-button me-5');
     const link = document.createElement('a');
     link.setAttribute('href', "#");
+    link.setAttribute('id', 'home')
     const homeText = document.createTextNode('Home');
 
     link.appendChild(homeText);
@@ -50,6 +51,7 @@ function menu() {
     homeMenu.setAttribute('class', 'primary-button me-5');
     const linkMenu = document.createElement('a');
     linkMenu.setAttribute('href', "#");
+    linkMenu.setAttribute('id', 'menu');
     const homeMenuText = document.createTextNode('Menus');
 
     linkMenu.appendChild(homeMenuText);
@@ -62,6 +64,7 @@ function menu() {
     homeContact.setAttribute('class', 'primary-button me-5');
     const linkContact = document.createElement('a');
     linkContact.setAttribute('href', "#");
+    linkContact.setAttribute('id', 'contact');
     const homeContactText = document.createTextNode('Contact');
 
     linkContact.appendChild(homeContactText);
