@@ -15,11 +15,11 @@ function menuPage() {
     headingMenu.appendChild(containerMenu);
 
      // Create header with text
-     const headerContact = document.createElement('h1');
-     headerContact.setAttribute('class', 'text');
-     const headerContactText =  document.createTextNode('Contact Us');
-     headerContact.appendChild(headerContactText);
-     containerContact.appendChild(headerContact);
+     const headerMenu = document.createElement('h1');
+     headerMenu.setAttribute('class', 'text');
+     const headerMenuText =  document.createTextNode('Our Menu');
+     headerMenu.appendChild(headerMenuText);
+     containerMenu.appendChild(headerMenu);
 
     // Create header paragrapgh
     const paragraphContact = document.createElement('p');
