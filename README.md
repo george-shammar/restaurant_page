@@ -20,9 +20,9 @@ Othe pages include the contact and menu pages. All the pages were developed enti
 
 
 ## Built With
-> Javascript.
-> HTML
-> CSS
+- Javascript.
+- HTML.
+- CSS.
 
 
 ## Getting Started
