@@ -1,7 +1,7 @@
-import {callContact} from './contact';
-import {pageLayout} from './page-load';
-import {menu} from './page-load';
-import {callMenu} from './menus';
+import callContact from './contact';
+import { pageLayout } from './page-load';
+import { menu } from './page-load';
+import callMenu from './menus';
 
 
 pageLayout();
