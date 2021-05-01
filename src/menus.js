@@ -1,12 +1,14 @@
 import './style.css';
+import {menu} from './page-load';
 
-const menu = document.getElementById('menu');
 
 function menuPage() {
     // create heading
+    const menuMenu = document.createElement('div');
+    menuMenu.setAttribute('class', 'menu');
     const headingMenu = document.createElement('div');
     headingMenu.setAttribute('class', 'page-heading');
-    menu.appendChild(headingMenu);
+    menuMenu.appendChild(headingMenu);
 
     // Create container
     const containerMenu = document.createElement('div');
@@ -27,6 +29,16 @@ function menuPage() {
     paragraphMenu.appendChild(paragraphMenuText);
     containerMenu.appendChild(paragraphMenu);
 
+    menu();
+    return menuMenu;
 }
 
-export default menuPage
+ 
+
+function callMenu() {
+    const pageSwitchMenu = document.getElementById("content");
+    pageSwitchMenu.innerHTML = '';
+    pageSwitchMenu.appendChild(menuPage());
+}
+
+export {callMenu}

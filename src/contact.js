@@ -33,9 +33,6 @@ function contactPage() {
     return contact;
 }
 
-
-   
-
 function callContact() {
     const pageSwitch = document.getElementById("content");
     pageSwitch.innerHTML = '';
