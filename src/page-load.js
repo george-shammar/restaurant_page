@@ -26,10 +26,8 @@ function pageLayout() {
     const paragraphText = document.createTextNode('We tantalize your taste bud...');
     paragraph.appendChild(paragraphText);
     container.appendChild(paragraph);
-}
 
-// create menu function
-function menu() {
+    // create menu
     const nav = document.createElement('nav');
     nav.setAttribute('class', 'menu');
     content.appendChild(nav);
@@ -70,7 +68,7 @@ function menu() {
     linkContact.appendChild(homeContactText);
     homeContact.appendChild(linkContact);
     nav.appendChild(homeContact);
+
 }
 
-export {pageLayout}
-export {menu}
+export default pageLayout;
