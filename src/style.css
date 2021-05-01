@@ -1,6 +1,6 @@
 
 .banner {
-  padding: 200px 0px;
+  padding: 200px;
   background-image: url(./restaurant.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,10 +36,10 @@
 
 .page-heading {
   margin-top: 10%;
-  padding: 80px 0px;
+  padding: 80px;
   background-image: url(./restaurant.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  text-align: center; 
+  text-align: center;
 }
