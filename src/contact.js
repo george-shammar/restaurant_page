@@ -28,14 +28,15 @@ function contactPage() {
     paragraphContact.appendChild(paragraphContactText);
     containerContact.appendChild(paragraphContact);
 
+    
+
     return contact;
 }
 
 
 function callContact() {
     const pageSwitch = document.getElementById("content");
-    pageSwitch.textContent = "";
-    // document.querySelector('#content').innerHTML = '';
+    pageSwitch.innerHTML = '';
     pageSwitch.appendChild(contactPage());
 }
   
