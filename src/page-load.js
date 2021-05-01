@@ -16,7 +16,7 @@ function pageLayout() {
   // Create header with text
   const header = document.createElement('h1');
   header.setAttribute('class', 'text');
-  const headerText =  document.createTextNode('Bon Goût');
+  const headerText = document.createTextNode('Bon Goût');
   header.appendChild(headerText);
   container.appendChild(header);
 
@@ -36,8 +36,8 @@ function pageLayout() {
   const home = document.createElement('div');
   home.setAttribute('class', 'primary-button me-5');
   const link = document.createElement('a');
-  link.setAttribute('href', "#");
-  link.setAttribute('id', 'home')
+  link.setAttribute('href', '#');
+  link.setAttribute('id', 'home');
   const homeText = document.createTextNode('Home');
 
   link.appendChild(homeText);
@@ -48,7 +48,7 @@ function pageLayout() {
   const homeMenu = document.createElement('div');
   homeMenu.setAttribute('class', 'primary-button me-5');
   const linkMenu = document.createElement('a');
-  linkMenu.setAttribute('href', "#");
+  linkMenu.setAttribute('href', '#');
   linkMenu.setAttribute('id', 'menu');
   const homeMenuText = document.createTextNode('Menu');
 
@@ -60,7 +60,7 @@ function pageLayout() {
   const homeContact = document.createElement('div');
   homeContact.setAttribute('class', 'primary-button me-5');
   const linkContact = document.createElement('a');
-  linkContact.setAttribute('href', "#");
+  linkContact.setAttribute('href', '#');
   linkContact.setAttribute('id', 'contact');
   const homeContactText = document.createTextNode('Contact');
 
