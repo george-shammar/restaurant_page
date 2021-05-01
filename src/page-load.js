@@ -52,7 +52,7 @@ function menu() {
     const linkMenu = document.createElement('a');
     linkMenu.setAttribute('href', "#");
     linkMenu.setAttribute('id', 'menu');
-    const homeMenuText = document.createTextNode('Menus');
+    const homeMenuText = document.createTextNode('Menu');
 
     linkMenu.appendChild(homeMenuText);
     homeMenu.appendChild(linkMenu);
