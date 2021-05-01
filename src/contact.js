@@ -28,8 +28,17 @@ function contactPage() {
     paragraphContact.appendChild(paragraphContactText);
     containerContact.appendChild(paragraphContact);
 
+    return contact;
 }
 
 
-export {contactPage}
+function callContact() {
+    const pageSwitch = document.getElementById("content");
+    pageSwitch.textContent = "";
+    // document.querySelector('#content').innerHTML = '';
+    pageSwitch.appendChild(contactPage());
+}
+  
+
+export {callContact}
 
