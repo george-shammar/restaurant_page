@@ -16,7 +16,7 @@ function menuPage() {
   // Create header with text
   const headerMenu = document.createElement('h1');
   headerMenu.setAttribute('class', 'text');
-  const headerMenuText =  document.createTextNode('Our Menu');
+  const headerMenuText = document.createTextNode('Our Menu');
   headerMenu.appendChild(headerMenuText);
   containerMenu.appendChild(headerMenu);
 
@@ -31,9 +31,9 @@ function menuPage() {
 }
 
 function callMenu() {
-  const pageSwitchMenu = document.getElementById("content");
+  const pageSwitchMenu = document.getElementById('content');
   pageSwitchMenu.innerHTML = '';
   pageSwitchMenu.appendChild(menuPage());
 }
 
-export default callMenu
+export default callMenu;
