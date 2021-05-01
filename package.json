@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/george-shammar/restaurant_page#readme",
   "devDependencies": {
+    "babel-eslint": "10.1.x",
     "css-loader": "^5.2.4",
+    "eslint": "6.8.x",
+    "eslint-config-airbnb-base": "14.1.x",
+    "eslint-plugin-import": "2.20.x",
     "style-loader": "^2.0.0",
     "webpack": "^5.36.1",
     "webpack-cli": "^4.6.0"
