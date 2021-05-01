@@ -17,7 +17,7 @@ function contactPage() {
   // Create header with text
   const headerContact = document.createElement('h1');
   headerContact.setAttribute('class', 'text');
-  const headerContactText =  document.createTextNode('Contact Us');
+  const headerContactText = document.createTextNode('Contact Us');
   headerContact.appendChild(headerContactText);
   containerContact.appendChild(headerContact);
 
@@ -34,11 +34,9 @@ function contactPage() {
 }
 
 function callContact() {
-  const pageSwitch = document.getElementById("content");
+  const pageSwitch = document.getElementById('content');
   pageSwitch.innerHTML = '';
   pageSwitch.appendChild(contactPage());
 }
-  
 
-export {callContact}
-
+export default callContact;
