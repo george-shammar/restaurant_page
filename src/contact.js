@@ -1,5 +1,5 @@
 import './style.css';
-
+import {menu} from './page-load';
 
 function contactPage() {
     // create heading
@@ -28,11 +28,13 @@ function contactPage() {
     paragraphContact.appendChild(paragraphContactText);
     containerContact.appendChild(paragraphContact);
 
-    
+    menu();
 
     return contact;
 }
 
+
+   
 
 function callContact() {
     const pageSwitch = document.getElementById("content");
