@@ -15,7 +15,7 @@ Othe pages include the contact and menu pages. All the pages were developed enti
 ### Contact page
 ![screenshot](contact.png)
 
-### Meni page
+### Menu page
 ![screenshot](menu.png)
 
 
