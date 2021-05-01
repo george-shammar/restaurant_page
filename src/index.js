@@ -1,10 +1,12 @@
-// import functions
-import { pageLayout } from './page-load';
-import { menu} from './page-load';
+import {contactPage} from './contact';
+import {pageLayout} from './page-load';
+import {menu} from './page-load';
 
 
 pageLayout();
 menu();
 
+const contactButton = document.getElementById('contact');
+contactButton.addEventListener('click', contactPage);
 
-
+contactPage();

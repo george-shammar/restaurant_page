@@ -29,5 +29,4 @@ function menuPage() {
 
 }
 
-menuPage();
-export {menuPage}
+export default menuPage

@@ -1,9 +1,10 @@
 import './style.css';
 
-const contact = document.getElementById('contact');
 
 function contactPage() {
     // create heading
+    const contact = document.createElement('div');
+    contact.setAttribute('class', 'contact');
     const heading = document.createElement('div');
     heading.setAttribute('class', 'page-heading');
     contact.appendChild(heading);
@@ -29,7 +30,6 @@ function contactPage() {
 
 }
 
-contactPage();
 
 export {contactPage}
 
