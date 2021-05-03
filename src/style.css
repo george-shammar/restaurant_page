@@ -1,7 +1,7 @@
 
 #banner {
-  padding: 200px;
-  background-image: url(./restaurant.jpg);
+  padding: 150px;
+  background-image: url(./bgg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -15,7 +15,7 @@
 }
 
 .page-heading {
-  margin-top: 10%;
+  margin-top: 0.5%;
   padding: 80px;
   background-image: url(./restaurant.jpg);
   background-repeat: no-repeat;
