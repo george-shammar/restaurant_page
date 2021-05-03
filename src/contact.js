@@ -56,18 +56,6 @@ function contactPage() {
    linkMenu.appendChild(homeMenuText);
    homeMenu.appendChild(linkMenu);
    nav.appendChild(homeMenu);
- 
-   // Create contact tab
-   const homeContact = document.createElement('div');
-   homeContact.setAttribute('class', 'primary-button me-5');
-   const linkContact = document.createElement('a');
-   linkContact.setAttribute('href', '#');
-   linkContact.setAttribute('id', 'contact');
-   const homeContactText = document.createTextNode('Contact');
- 
-   linkContact.appendChild(homeContactText);
-   homeContact.appendChild(linkContact);
-   nav.appendChild(homeContact);
 
   return contact;
 }
