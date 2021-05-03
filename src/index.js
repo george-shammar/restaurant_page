@@ -1,5 +1,4 @@
 import callContact from './contact';
-// import pageLayout from './page-load';
 import callHome from './page-load';
 import callMenu from './menus';
 
