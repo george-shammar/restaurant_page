@@ -48,7 +48,9 @@
 
 .tabs {
 	display: flex;
-	flex-wrap: wrap; 
+	flex-wrap: wrap;
+  margin-top: 5%;
+  justify-content: center;
 }
 .tabs label {
 	order: 1; 
@@ -64,18 +66,7 @@
 .tabs input[type="radio"] {
 	display: none;
 }
+
 .tabs input[type="radio"]:checked + label {
 	background: #fff;
-}
-
-@media (max-width: 45em) {
-  .tabs .tab,
-  .tabs label {
-    order: initial;
-  }
-  .tabs label {
-    width: 100%;
-    margin-right: 0;
-    margin-top: 0.2rem;
-  }
 }

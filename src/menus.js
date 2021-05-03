@@ -26,8 +26,6 @@ function menuPage() {
   const paragraphMenuText = document.createTextNode('Breakfast......Brunch......Lunch......Dinner');
   paragraphMenu.appendChild(paragraphMenuText);
   containerMenu.appendChild(paragraphMenu);
-
-  //======page tabs=====
    
   return menuMenu;
 }

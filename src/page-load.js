@@ -124,5 +124,4 @@ function pageCall() {
   tabCall();
 }
 
-// export default pageLayout;
 export default pageCall;

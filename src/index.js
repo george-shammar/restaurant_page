@@ -12,4 +12,4 @@ const menuButton = document.getElementById('tabtwo');
 menuButton.addEventListener('click', callMenu);
 
 const homeButton = document.getElementById('tabone');
-homeButton.addEventListener('click', pageLayout);
+homeButton.addEventListener('click', callHome);
