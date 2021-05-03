@@ -25,19 +25,19 @@
 }
 
 .tabs {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 5%;
   justify-content: center;
 }
+
 .tabs label {
-	order: 1; 
-	display: block;
-	padding: 1rem 2rem;
-	margin-right: 0.5rem;
-	cursor: pointer;
+  order: 1;
+  display: block;
+  padding: 1rem 2rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
   background: #f2745f;
-  font-weight: bold;
   transition: background ease 0.2s;
   text-transform: uppercase;
   font-weight: 500;
