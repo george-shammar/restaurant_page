@@ -26,7 +26,7 @@ Othe pages include the contact and menu pages. All the pages were developed enti
 
 ## Live Demo
 
-[Deployed app](https://george-shammar.github.io/restaurant_page/)
+[Deployed app]()
 
 ## Getting Started
 
