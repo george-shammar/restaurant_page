@@ -27,46 +27,91 @@ function pageLayout() {
   paragraph.appendChild(paragraphText);
   container.appendChild(paragraph);
 
-  // create menu
-  const nav = document.createElement('nav');
-  nav.setAttribute('class', 'menu');
-  content.appendChild(nav);
+  // // create menu
+  // const nav = document.createElement('nav');
+  // nav.setAttribute('class', 'menu');
+  // content.appendChild(nav);
 
-  // create home tab
-  const home = document.createElement('div');
-  home.setAttribute('class', 'primary-button me-5');
-  const link = document.createElement('a');
-  link.setAttribute('href', '#');
-  link.setAttribute('id', 'home');
+  // // create home tab
+  // const home = document.createElement('div');
+  // home.setAttribute('class', 'primary-button me-5');
+  // const link = document.createElement('a');
+  // link.setAttribute('href', '#');
+  // link.setAttribute('id', 'home');
+  // const homeText = document.createTextNode('Home');
+
+  // link.appendChild(homeText);
+  // home.appendChild(link);
+  // nav.appendChild(home);
+
+  // // Create menu tab
+  // const homeMenu = document.createElement('div');
+  // homeMenu.setAttribute('class', 'primary-button me-5');
+  // const linkMenu = document.createElement('a');
+  // linkMenu.setAttribute('href', '#');
+  // linkMenu.setAttribute('id', 'menu');
+  // const homeMenuText = document.createTextNode('Menu');
+
+  // linkMenu.appendChild(homeMenuText);
+  // homeMenu.appendChild(linkMenu);
+  // nav.appendChild(homeMenu);
+
+  // // Create contact tab
+  // const homeContact = document.createElement('div');
+  // homeContact.setAttribute('class', 'primary-button me-5');
+  // const linkContact = document.createElement('a');
+  // linkContact.setAttribute('href', '#');
+  // linkContact.setAttribute('id', 'contact');
+  // const homeContactText = document.createTextNode('Contact');
+
+  // linkContact.appendChild(homeContactText);
+  // homeContact.appendChild(linkContact);
+  // nav.appendChild(homeContact);
+
+  //==========tab for home=================
+  const tabs = document.createElement('div');
+  tabs.setAttribute('class', 'tabs');
+  content.appendChild(tabs);
+
+  const homeInput = document.createElement('input');
+  homeInput.setAttribute('type', 'radio');
+  homeInput.setAttribute('name', 'tabs');
+  homeInput.setAttribute('id', 'tabone');
+  homeInput.setAttribute('checked', 'checked');
+  tabs.appendChild(homeInput);
+  //label for home
+  const homeLabel = document.createElement('label');
+  homeLabel.setAttribute('for', 'tabone');
+  tabs.appendChild(homeLabel);
   const homeText = document.createTextNode('Home');
+  homeLabel.appendChild(homeText);
 
-  link.appendChild(homeText);
-  home.appendChild(link);
-  nav.appendChild(home);
+  // ===========tab for menu==================
+  const menuInput = document.createElement('input');
+  menuInput.setAttribute('type', 'radio');
+  menuInput.setAttribute('name', 'tabs');
+  menuInput.setAttribute('id', 'tabtwo');
+  tabs.appendChild(menuInput);
+  //label for menu
+  const menuLabel = document.createElement('label');
+  menuLabel.setAttribute('for', 'tabtwo');
+  tabs.appendChild(menuLabel);
+  const menuText = document.createTextNode('Menu');
+  menuLabel.appendChild(menuText);
+  
+  // ===========tab for contact==================
+  const contactInput = document.createElement('input');
+  contactInput.setAttribute('type', 'radio');
+  contactInput.setAttribute('name', 'tabs');
+  contactInput.setAttribute('id', 'tabthree');
+  tabs.appendChild(contactInput);
+  //label for contact
+  const contactLabel = document.createElement('label');
+  contactLabel.setAttribute('for', 'tabthree');
+  tabs.appendChild(contactLabel);
+  const contactText = document.createTextNode('Contact');
+  contactLabel.appendChild(contactText);
 
-  // Create menu tab
-  const homeMenu = document.createElement('div');
-  homeMenu.setAttribute('class', 'primary-button me-5');
-  const linkMenu = document.createElement('a');
-  linkMenu.setAttribute('href', '#');
-  linkMenu.setAttribute('id', 'menu');
-  const homeMenuText = document.createTextNode('Menu');
-
-  linkMenu.appendChild(homeMenuText);
-  homeMenu.appendChild(linkMenu);
-  nav.appendChild(homeMenu);
-
-  // Create contact tab
-  const homeContact = document.createElement('div');
-  homeContact.setAttribute('class', 'primary-button me-5');
-  const linkContact = document.createElement('a');
-  linkContact.setAttribute('href', '#');
-  linkContact.setAttribute('id', 'contact');
-  const homeContactText = document.createTextNode('Contact');
-
-  linkContact.appendChild(homeContactText);
-  homeContact.appendChild(linkContact);
-  nav.appendChild(homeContact);
 }
 
 export default pageLayout;
