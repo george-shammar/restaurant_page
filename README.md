@@ -10,13 +10,13 @@ The application contains a simple home page with the name of the restaurant and 
 Othe pages include the contact and menu pages. All the pages were developed entirely with javascript except for the bare bone HTML skeleton to provide a framework to hold the bundled module scripts in main.js.
 
 ### Main page
-![screenshot](main.png)
+![screenshot](./screenshot/main.png)
 
 ### Contact page
-![screenshot](contact.png)
+![screenshot](./screenshot/contact.png)
 
 ### Menu page
-![screenshot](menu.png)
+![screenshot](./screenshot/menu.png)
 
 
 ## Built With
