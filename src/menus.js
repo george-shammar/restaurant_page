@@ -45,18 +45,6 @@ function menuPage() {
    home.appendChild(link);
    nav.appendChild(home);
  
-   // Create menu tab
-   const homeMenu = document.createElement('div');
-   homeMenu.setAttribute('class', 'primary-button me-5');
-   const linkMenu = document.createElement('a');
-   linkMenu.setAttribute('href', '#');
-   linkMenu.setAttribute('id', 'menu');
-   const homeMenuText = document.createTextNode('Menu');
- 
-   linkMenu.appendChild(homeMenuText);
-   homeMenu.appendChild(linkMenu);
-   nav.appendChild(homeMenu);
- 
    // Create contact tab
    const homeContact = document.createElement('div');
    homeContact.setAttribute('class', 'primary-button me-5');
