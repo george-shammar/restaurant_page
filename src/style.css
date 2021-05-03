@@ -1,0 +1,55 @@
+
+#banner {
+  padding: 150px;
+  background-image: url(./bgg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+.text {
+  color: #eb2603;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.page-heading {
+  margin-top: 0.5%;
+  padding: 80px;
+  background-image: url(./restaurant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.tabs label {
+  order: 1;
+  display: block;
+  padding: 1rem 2rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  background: #f2745f;
+  transition: background ease 0.2s;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 3px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs input[type="radio"]:checked + label {
+  background: #fff;
+}
