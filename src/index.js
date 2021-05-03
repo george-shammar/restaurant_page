@@ -10,5 +10,5 @@ contactButton.addEventListener('click', callContact);
 const menuButton = document.getElementById('tabtwo');
 menuButton.addEventListener('click', callMenu);
 
-const homeButton = document.getElementById('banner');
+const homeButton = document.getElementById('tabone');
 homeButton.addEventListener('click', pageLayout);
