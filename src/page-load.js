@@ -39,19 +39,6 @@ function tabCall() {
   tabs.setAttribute('class', 'tabs');
   content.appendChild(tabs);
 
-  const homeInput = document.createElement('input');
-  homeInput.setAttribute('type', 'radio');
-  homeInput.setAttribute('name', 'tabs');
-  homeInput.setAttribute('id', 'tabone');
-  homeInput.setAttribute('checked', 'checked');
-  tabs.appendChild(homeInput);
-  //label for home
-  const homeLabel = document.createElement('label');
-  homeLabel.setAttribute('for', 'tabone');
-  tabs.appendChild(homeLabel);
-  const homeText = document.createTextNode('Home');
-  homeLabel.appendChild(homeText);
-
   // ===========tab for menu==================
   const menuInput = document.createElement('input');
   menuInput.setAttribute('type', 'radio');
@@ -81,4 +68,9 @@ function tabCall() {
   return tabs;
 }
 
-export default pageLayout;
+
+function callHome() {
+  pageLayout();
+}
+
+export default callHome;
