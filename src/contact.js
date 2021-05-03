@@ -26,8 +26,6 @@ function contactPage() {
   const paragraphContactText = document.createTextNode(' East Legon; P.O. Box KD213 Kanda,. Accra, GHANA Tel: 233');
   paragraphContact.appendChild(paragraphContactText);
   containerContact.appendChild(paragraphContact);
-
-  //======page tabs=====
    
   return contact;
 }

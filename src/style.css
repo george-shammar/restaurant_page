@@ -1,5 +1,5 @@
 
-.banner {
+#banner {
   padding: 200px;
   background-image: url(./restaurant.jpg);
   background-repeat: no-repeat;
@@ -12,11 +12,6 @@
   color: #eb2603;
   font-style: italic;
   font-weight: bolder;
-}
-
-.menu {
-  display: flex;
-  justify-content: center;
 }
 
 .page-heading {
