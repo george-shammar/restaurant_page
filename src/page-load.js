@@ -5,7 +5,7 @@ const content = document.getElementById('content');
 function pageLayout() {
   // create banner div and append to content.
   const banner = document.createElement('div');
-  banner.setAttribute('class', 'banner');
+  banner.setAttribute('id', 'banner');
   content.appendChild(banner);
 
   // create container div and append to banner
@@ -68,6 +68,11 @@ function pageLayout() {
   // homeContact.appendChild(linkContact);
   // nav.appendChild(homeContact);
 
+}
+
+
+function tabCall() {
+
   //==========tab for home=================
   const tabs = document.createElement('div');
   tabs.setAttribute('class', 'tabs');
@@ -114,4 +119,10 @@ function pageLayout() {
 
 }
 
-export default pageLayout;
+function pageCall() {
+  pageLayout();
+  tabCall();
+}
+
+// export default pageLayout;
+export default pageCall;

@@ -28,40 +28,12 @@ function contactPage() {
   containerContact.appendChild(paragraphContact);
 
   //======page tabs=====
-   // create menu
-   const nav = document.createElement('nav');
-   nav.setAttribute('class', 'menu');
-   contact.appendChild(nav);
- 
-   // create home tab
-   const home = document.createElement('div');
-   home.setAttribute('class', 'primary-button me-5');
-   const link = document.createElement('a');
-   link.setAttribute('href', '#');
-   link.setAttribute('id', 'home');
-   const homeText = document.createTextNode('Home');
- 
-   link.appendChild(homeText);
-   home.appendChild(link);
-   nav.appendChild(home);
- 
-   // Create menu tab
-   const homeMenu = document.createElement('div');
-   homeMenu.setAttribute('class', 'primary-button me-5');
-   const linkMenu = document.createElement('a');
-   linkMenu.setAttribute('href', '#');
-   linkMenu.setAttribute('id', 'menu');
-   const homeMenuText = document.createTextNode('Menu');
- 
-   linkMenu.appendChild(homeMenuText);
-   homeMenu.appendChild(linkMenu);
-   nav.appendChild(homeMenu);
-
+   
   return contact;
 }
 
 function callContact() {
-  const pageSwitch = document.getElementById('content');
+  const pageSwitch = document.getElementById('banner');
   pageSwitch.innerHTML = '';
   pageSwitch.appendChild(contactPage());
 }

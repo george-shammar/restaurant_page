@@ -1,8 +1,9 @@
 import callContact from './contact';
-import pageLayout from './page-load';
+// import pageLayout from './page-load';
+import pageCall from './page-load';
 import callMenu from './menus';
 
-pageLayout();
+pageCall();
 
 const contactButton = document.getElementById('tabthree');
 contactButton.addEventListener('click', callContact);
