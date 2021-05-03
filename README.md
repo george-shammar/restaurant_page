@@ -25,7 +25,6 @@ Othe pages include the contact and menu pages. All the pages were developed enti
 - CSS.
 
 ## Live Demo
-
 [Deployed app](https://george-shammar.github.io/restaurant_page/)
 
 ## Getting Started
