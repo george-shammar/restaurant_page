@@ -27,6 +27,48 @@ function menuPage() {
   paragraphMenu.appendChild(paragraphMenuText);
   containerMenu.appendChild(paragraphMenu);
 
+  //======page tabs=====
+   // create menu
+   const nav = document.createElement('nav');
+   nav.setAttribute('class', 'menu');
+   menuMenu.appendChild(nav);
+ 
+   // create home tab
+   const home = document.createElement('div');
+   home.setAttribute('class', 'primary-button me-5');
+   const link = document.createElement('a');
+   link.setAttribute('href', '#');
+   link.setAttribute('id', 'home');
+   const homeText = document.createTextNode('Home');
+ 
+   link.appendChild(homeText);
+   home.appendChild(link);
+   nav.appendChild(home);
+ 
+   // Create menu tab
+   const homeMenu = document.createElement('div');
+   homeMenu.setAttribute('class', 'primary-button me-5');
+   const linkMenu = document.createElement('a');
+   linkMenu.setAttribute('href', '#');
+   linkMenu.setAttribute('id', 'menu');
+   const homeMenuText = document.createTextNode('Menu');
+ 
+   linkMenu.appendChild(homeMenuText);
+   homeMenu.appendChild(linkMenu);
+   nav.appendChild(homeMenu);
+ 
+   // Create contact tab
+   const homeContact = document.createElement('div');
+   homeContact.setAttribute('class', 'primary-button me-5');
+   const linkContact = document.createElement('a');
+   linkContact.setAttribute('href', '#');
+   linkContact.setAttribute('id', 'contact');
+   const homeContactText = document.createTextNode('Contact');
+ 
+   linkContact.appendChild(homeContactText);
+   homeContact.appendChild(linkContact);
+   nav.appendChild(homeContact);
+
   return menuMenu;
 }
 
